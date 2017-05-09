@@ -1,0 +1,109 @@
+/*Reset general de HTML*/
+
+* {
+    margin: 0px;
+}
+
+
+/*Estilo general de la página*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background-color: lightseagreen;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*Estilos para Barra de Navegación*/
+
+header {
+    background-color: teal;
+    width: 100%;
+    position: fixed;
+}
+
+li {
+    list-style: none;
+    padding: 0 10px 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+a:hover {
+    color: hotpink;
+    background-color: turquoise;
+    padding: 20px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+}
+
+
+/*Estilo para fotos de pandas*/
+
+.fotos {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 30px 50px;
+}
+
+.polaroid {
+    padding: 10px;
+    background-color: rgb(169, 253, 225);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cerrar {
+    color: teal;
+    text-align: right;
+}
+
+img {
+    width: 230px;
+    height: 230px;
+    padding: 10px;
+}
+
+
+/*Estilo para botones*/
+
+.botones {
+    justify-content: space-around;
+    padding: 0 300px;
+}
+.estiloBoton{
+    background-color: teal;
+    border: 1px solid teal;
+    width: 30%;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+/*Estilo para párrafos*/
+.parrafos{
+    padding: 60px;
+    color: antiquewhite;
+    font-size: 19px;
+    font-family: 'Architects Daughter', cursive;
+    width: 40%;
+    flex-direction: column;
+}
+
+
