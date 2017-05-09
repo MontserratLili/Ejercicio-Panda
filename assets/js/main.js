@@ -49,7 +49,7 @@ function parrafoOcultar(){
 
 panda1.addEventListener("click", parrafoMostrar);
 
-//*************OCULTAR PARRAFO DERECHO*************
+//*************OCULTAR PARRAFOs DERECHO*************
 
 function parrafoMostrar2(){
     document.getElementById("pDos").style.visibility = "hidden";
